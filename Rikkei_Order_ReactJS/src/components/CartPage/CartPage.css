@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.modal-body {
+  width: 80%;
+  margin: auto;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 100%;
+  font-size: 17px;
+  color: white;
+  font-style: italic;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 17px;
+  color: white;
+  font-style: italic;
+}
+
+.cart-quantity {
+  width: 11%;
+  color: white;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.cart-item-title {
+  color: white;
+  margin-left: 0.5em;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  height: 75px;
+}
+
+.btn-danger {
+  color: wheat;
+  background-color: #eb5757;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #cc4c4c;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #d49fbd;
+  background-color: #4d6162;
+  color: white;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+  margin-right: 20px;
+  font-style: italic;
+}
+
+.cart-total-price {
+  color: #f78a00;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 10px;
+  font-style: italic;
+}
+
+.thanhtoan {
+  font-size: 15px;
+  padding: 5px 5px 5px 5px;
+  margin-right: 10px;
+  font-weight: 700;
+  border: none;
+  background-color: dimgray;
+  color: white;
+  font-style: italic;
+}

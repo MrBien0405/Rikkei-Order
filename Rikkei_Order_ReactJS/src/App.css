@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./assets/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+    margin-top: 0px !important;
+    display: flex;
+    font-family: 'Mali', cursive;
+    justify-content: flex-start;
+}
+
+.category-name {
+    font-family: 'Mali', cursive;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.category-name h1 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.category-name h1:before,
+.category-name h1:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+.category-name h1:before {
+    margin-right: 10px
+}
+
+.category-name h1:after {
+    margin-left: 10px
+}
+
+.user-profile-container .history-title {
+    color: red;
+}
+
+.purchased-history-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 80%;
+}
+
+@media all and (max-width: 800px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .row .col {
+        flex-basis: 50%;
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .row .col {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+}

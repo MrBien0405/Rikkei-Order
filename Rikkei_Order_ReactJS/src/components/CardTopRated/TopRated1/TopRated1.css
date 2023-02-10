@@ -1,0 +1,169 @@
+.top-col {
+  padding: 10px;
+}
+
+.top-food-card {
+  height: 100%;
+  min-height: 189px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  position: relative;
+  background: rgb(184, 233, 95);
+  background: linear-gradient(0deg, rgb(94, 214, 130) 0%, rgb(250, 246, 246) 100%);
+  opacity: 0.9;
+}
+
+.top-food-card img {
+  width: 60%;
+}
+
+.top-favourite {
+  background: #ff7a39;
+  display: inline-block;
+  height: 30px;
+  margin-left: 1%;
+  margin-top: 1%;
+  position: relative;
+  width: 50px;
+  transform: rotate(180deg);
+}
+
+.top-favourite::before {
+  border-bottom: 25px solid #ff7a39;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  content: '';
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -25px;
+  width: 0;
+}
+
+.top-favourite p {
+  padding-left: 10px;
+  font-size: 15px;
+  color: #fff;
+  transform: rotate(180deg);
+
+}
+
+.top-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-favourite .quantity {
+  margin-bottom: 0px;
+}
+
+.top-favourite .status-on {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(19, 248, 19);
+  border: 1px solid rgb(119, 105, 105);
+  border-radius: 999px;
+}
+
+.top-favourite .status-off {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(243, 25, 25);
+  border: 1px solid rgb(119, 105, 105);
+  border-radius: 999px;
+}
+
+.top-favourite ion-icon {
+  font-size: 25px;
+  color: #f47e72;
+}
+
+.col {
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+}
+
+.item-info .card-body {
+  padding: 1rem 0px !important;
+  width: 90%;
+}
+
+.item-info .card-body .card-top-text {
+  margin: auto;
+  width: 100%;
+  height: 40px;
+  background-color: #4e4e50;
+  opacity: 0.4;
+  margin-top: -5%;
+  text-align: center;
+}
+
+.item-info .card-title1 {
+  font-size: 18px;
+  line-height: 40px;
+  color: #f3efef;
+}
+
+.item-info .name-text {
+  margin: auto;
+  width: 100%;
+  height: 40px;
+  /* border: 1px solid black; */
+}
+
+.item-info .card-text1 {
+  /* max-width: 100px; */
+  margin-top: 2%;
+  font-size: 20px;
+}
+
+.item-info .price-and-buy p {
+  margin-bottom: 0px !important;
+}
+
+/* Price, buy button and review */
+.item-info .price-and-buy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-info .price-and-buy ion-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.item-info .price-and-buy ion-icon:hover {
+  color: #f64005;
+}
+
+.item-info .price-and-buy .checked {
+  color: rgb(236, 236, 42);
+}
+
+.item-info .price-and-buy .reviewNumber {
+  font-size: 12px;
+  color: gray;
+}
+
+.box-img {
+
+  height: 150px;
+  width: 150px;
+
+}
+
+.box-img .card-img-top1 {
+  width: 100%;
+  height: 100%;
+
+}
